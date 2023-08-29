@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+  <BrowserRouter>
       <Routes>
         <Route path="/">
           <Route
@@ -34,6 +34,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+  
   );
 }
 
